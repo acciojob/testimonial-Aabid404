@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Testimonials Section */
+.testimonials {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.message {
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 10px;
+}
+
+.author {
+   font-style:italic;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 15px;
+  text-align: right;
+}
+
