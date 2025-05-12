@@ -10,29 +10,27 @@ body {
 
 /* Testimonials Section */
 .testimonials {
-  width: 100%;
+  width: 200%;
   max-width: 600px;
   text-align: left;
   padding: 20px;
 }
 
 .testimonials h1 {
-  font-size: 32px;
+  font-size: 30px;
   color: #333;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Testimonial Cards */
 .testimonial-card {
   background-color: #fff;
-  padding: 25px;
+  padding: 10px;
   margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
 
-.message {
+.text {
   color: #444;
   margin-bottom: 15px;
   line-height: 1.5;
