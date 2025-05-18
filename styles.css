@@ -1,46 +1,24 @@
-
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f2f5;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
+    font-family: Arial, sans-serif;
 }
 
-/* Testimonials Section */
-.testimonials {
-  width: 200%;
-  max-width: 600px;
-  text-align: left;
-  padding: 20px;
+.testimonial-container {
+    padding: 20px;
+    background-color: #f5f5f5; /* Main container background color */
 }
 
-.testimonials h1 {
-  font-size: 30px;
-  color: #333;
-  margin-bottom: 20px;
+.testimonial {
+    padding: 15px;
+    border: 1px solid #ccc; /* Border for individual testimonial */
+    background-color: white; /* Background color for testimonial box */
+    margin-bottom: 15px; /* Space between testimonials */
 }
 
-/* Testimonial Cards */
-.testimonial-card {
-  background-color: #fff;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.text {
-  color: #444;
-  margin-bottom: 15px;
-  line-height: 1.5;
-  font-size: 10px;
+.testimonial-text {
+    margin: 0; /* Remove default margin */
 }
 
 .author {
-   font-style:italic;
-  color: #1a1a1a;
-  font-size: 10px;
-  text-align: right;
+    text-align: right; /* Align author's name to the right */
+    font-style: italic; /* Italic style for author's name */
 }
-
